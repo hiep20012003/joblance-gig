@@ -6,6 +6,7 @@ FROM node:22-slim AS builder
 WORKDIR /app
 
 COPY package.json package-lock.json .npmrc ./
+COPY tools ./tools
 
 RUN --mount=type=secret,id=NPM_TOKEN \
     NPM_TOKEN=$(cat /run/secrets/NPM_TOKEN) npm ci
