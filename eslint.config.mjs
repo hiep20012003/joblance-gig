@@ -51,7 +51,7 @@ export default [
       '@stylistic/no-multi-spaces': 'error',
       '@stylistic/no-multiple-empty-lines': [2, { max: 2 }],
       '@stylistic/object-curly-spacing': ['error', 'always'],
-      '@stylistic/quotes': ['error', 'single', { allowTemplateLiterals: 'always' }],
+      // '@stylistic/quotes': ['error', 'double', { allowTemplateLiterals: 'always' }],
       '@stylistic/semi': [2, 'always'],
       '@stylistic/semi-spacing': ['error', { before: false, after: true }],
       '@stylistic/space-before-blocks': ['error', 'always'],
